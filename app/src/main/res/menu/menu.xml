@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Subastas"
+        android:id="@+id/subastas"
+        android:icon="@drawable/lupa_background"/>
+    <item
+        android:title="Perfil"
+        android:id="@+id/perfil"
+        android:icon="@drawable/perfil_background"/>
+    <item
+        android:title="Mis subastas"
+        android:id="@+id/misSubastas"/>
+
+</menu>
