@@ -12,12 +12,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Prototipo10">
         <activity
+            android:name=".Registro"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".VentanaPrincipal"
             android:exported="false"
             android:label="@string/title_activity_ventana_principal" />
-        <activity
-            android:name=".Registro"
-            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
